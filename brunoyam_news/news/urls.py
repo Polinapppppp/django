@@ -11,4 +11,5 @@ urlpatterns = [
     path('modul10/practic/', views.practic, name='practic'),
     path('modul10/z2/', views.z2, name='z2'),
     path('modul10/z3/', views.z3, name='z3'),
+    path('modul10/base/', views.base, name='base'),
 ]

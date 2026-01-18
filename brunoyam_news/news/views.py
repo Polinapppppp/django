@@ -13,3 +13,5 @@ def z2(request):
     return render(request, 'modul10/z2.html')
 def z3(request):
     return  render(request, 'modul10/z3.html')
+def base(request):
+    return  render(request, 'modul10/base.html')

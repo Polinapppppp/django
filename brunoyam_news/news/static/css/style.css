@@ -1,0 +1,33 @@
+body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .container {
+        flex: 1;
+      }
+
+      .card {
+        margin-top:200px;
+      }
+
+ img {
+            max-width: 400px;
+        }
+        .card {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        @media (max-width: 768px) {
+            .sidebar-desktop {
+                display: none !important;
+            }
+        }
+
+        @media (min-width: 769px) {
+            .sidebar-desktop {
+                display: block !important;
+            }
+        }
