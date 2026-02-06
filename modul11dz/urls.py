@@ -19,5 +19,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('products/', include('newproject.urls')),  # → полный URL: /products/
+    path('', include('newproject.urls')),  # → полный URL: /products/
 ]
