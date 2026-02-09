@@ -10,6 +10,9 @@ class ProductListView(ListView):
     context_object_name = 'products'
     paginate_by = 5
 
+    def get_queryset(self):
+        return Product.objects.select_related('category')
+
 class ContactView(FormView):
     template_name = 'contact_form.html'
     form_class = ContactForm
