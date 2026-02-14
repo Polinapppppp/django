@@ -13,3 +13,5 @@ class ProductServiceTest(TestCase):
         self.assertEqual(len(data['products']), 1)
         self.assertEqual(data['products'][0].name, "Банан")
         self.assertEqual(data['products'][0].category.name, "Фрукты")
+
+
